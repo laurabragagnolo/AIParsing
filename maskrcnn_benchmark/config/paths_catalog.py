@@ -121,16 +121,16 @@ class DatasetCatalog(object):
             "img_dir": "CIHP/test_img",
             "ann_file": "CIHP/annotations/CIHP_test.json",
         },
-        "LV-MHP-v2_train": {  # new addition by zsy
-            "img_dir":  "LV-MHP-v2/train/train_img",
+        "LV-MHP-v2_train": {  # modified by laurabrg
+            "img_dir":  "LV-MHP-v2/train/images",
             "ann_file": "LV-MHP-v2/annotations/LV_MHP_V2_train.json",
         },
-        "LV-MHP-v2_val": {  # new addition by zsy
-            "img_dir": "LV-MHP-v2/val/val_img",
+        "LV-MHP-v2_val": {  # modified by laurabrg
+            "img_dir": "LV-MHP-v2/val/images",
             "ann_file": "LV-MHP-v2/annotations/LV_MHP_V2_val.json",
         },
-        "LV-MHP-v2_test": {  # new addition by zsy
-            "img_dir": "LV-MHP-v2/test_img",
+        "LV-MHP-v2_test": {  # modified by laurabrg
+            "img_dir": "LV-MHP-v2/images",
             "ann_file": "LV-MHP-v2/annotations/LV_MHP_V2_val_test.json",
         }
 
