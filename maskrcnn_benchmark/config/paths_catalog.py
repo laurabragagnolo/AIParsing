@@ -126,7 +126,7 @@ class DatasetCatalog(object):
             "ann_file": "LV-MHP-v2/annotations/LV_MHP_V2_train.json",
         },
         "LV-MHP-v2_val": {  # modified by laurabrg
-            "img_dir": "LV-MHP-v2/val/val_img",
+            "img_dir": "LV-MHP-v2/val/images",
             "ann_file": "LV-MHP-v2/annotations/LV_MHP_V2_val.json",
         },
         "LV-MHP-v2_test": {  # modified by laurabrg
