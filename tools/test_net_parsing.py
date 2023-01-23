@@ -39,6 +39,8 @@ def main():
 
     num_gpus = int(os.environ["WORLD_SIZE"]) if "WORLD_SIZE" in os.environ else 1
     multi_gpu_testing = True if num_gpus > 1 else False
+    print('#########################################################################')
+    print('#########################################################################')
     print(multi_gpu_testing)
     print(torch.version.cuda)
 
