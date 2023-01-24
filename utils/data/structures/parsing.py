@@ -170,9 +170,9 @@ class Parsing(object):
 
 def get_parsing(root_dir, parsing_name):
     parsing_dir = root_dir.replace('img', 'parsing')
-    print(parsing_dir)
+    # print(parsing_dir)
     parsing_path = os.path.join(parsing_dir, parsing_name)
-    print(parsing_path)
+    # print(parsing_path)
     return cv2.imread(parsing_path, 0)
 
 
