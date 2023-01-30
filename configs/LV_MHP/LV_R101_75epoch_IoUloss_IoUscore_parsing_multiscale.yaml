@@ -76,4 +76,4 @@ TEST:
     SIGMA: 0.5
 FAST_RCNN:
    NMS: 0.75  
-OUTPUT_DIR : 'checkpoints/yunnan/LV-R101-75epoch-IoUloss-IoUscore-parsing6-v100-multiscale'
+OUTPUT_DIR : 'checkpoints/LV-R101-75epoch-IoUloss-IoUscore-parsing6-v100-multiscale'
