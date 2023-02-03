@@ -220,11 +220,7 @@ def eval_parsing_ap(all_parsings, all_scores, score_thresh, im_dir, ann_fn, num_
         mask_pred = mask0.astype(np.int)
 
         for i in range(len(R[0]['anno_adds'])):
-            # mask_gt = cv2.imread(R[0]['anno_adds'][i], 0)
-            mask_gt = np.array(Image.open(R[0]['anno_adds'][i]))
-            print(mask_gt.shape)
-            if len(mask_gt.shape) == 3:
-                mask_gt = mask_gt[:, :, 0]
+            mask_gt = cv2.imread(R[0]['anno_adds'][i], 0)
 
             seg_iou = cal_one_mean_iou(mask_pred.astype(np.uint8), mask_gt, nb_class)
 
