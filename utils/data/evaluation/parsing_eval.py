@@ -7,7 +7,7 @@ import json
 import copy
 import numpy as np
 from tqdm import trange, tqdm
-import Image
+from PIL import Image
 
 import warnings
 
