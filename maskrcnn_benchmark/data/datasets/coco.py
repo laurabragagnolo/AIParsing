@@ -120,8 +120,7 @@ class COCODataset(torchvision.datasets.coco.CocoDetection):
         if 'parsing' in self.ann_types:
             parsing = [get_parsing(self.root, obj["parsing"]) for obj in anno]
             parsing = Parsing(parsing, img.size)
-            if parsing is None:
-                print(self.get_img_info(idx))
+            print(self.get_img_info(idx))
             target.add_field("parsing", parsing)
 
         target = target.clip_to_image(remove_empty=True)
